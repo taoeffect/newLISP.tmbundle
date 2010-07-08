@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+#html_header "Documentation for Word" "newLISP"
+read KEYWORD
+echo "&lt;ul&gt;"
+echo "&lt;li&gt;&lt;a href=\"http://newlisp.org/downloads/newlisp_manual.html#$TM_CURRENT_WORD\"&gt;$TM_CURRENT_WORD&lt;/a&gt;&lt;/li&gt;"
+#file:///usr/share/doc/newlisp/newlisp_manual.html#$TM_CURRENT_WORD
+echo "&lt;/ul&gt;"
+#html_footer</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>Documentation for Word</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.newlisp</string>
+	<key>uuid</key>
+	<string>88778060-82EC-43A6-AA6C-4132841A4497</string>
+</dict>
+</plist>

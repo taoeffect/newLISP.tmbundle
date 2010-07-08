@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(if-not (${1:cond} $2)
+	($0)
+)</string>
+	<key>name</key>
+	<string>if-not</string>
+	<key>scope</key>
+	<string>source.newlisp</string>
+	<key>tabTrigger</key>
+	<string>ifn</string>
+	<key>uuid</key>
+	<string>07D2D8EA-9570-4BF9-8E86-C760B70BAEAD</string>
+</dict>
+</plist>

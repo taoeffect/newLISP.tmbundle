@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(dotimes (${1:i} ${2:10})
+	($0)
+)</string>
+	<key>name</key>
+	<string>dotimes</string>
+	<key>scope</key>
+	<string>source.newlisp</string>
+	<key>tabTrigger</key>
+	<string>dotimes</string>
+	<key>uuid</key>
+	<string>F66BB831-AE19-4C89-9CCC-C397F2F0DF2D</string>
+</dict>
+</plist>

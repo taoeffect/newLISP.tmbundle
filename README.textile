@@ -1,0 +1,11 @@
+h1. Installation
+
+pre. cd ~/Library/Application\ Support/TextMate/Bundles
+git clone http://github.com/taoeffect/newLISP.tmbundle.git
+osascript -e 'tell app "TextMate" to reload bundles'
+
+h2. Using hg-git
+
+Same as above but use:
+
+pre. hg clone git://github.com/taoeffect/newLISP.tmbundle.git
